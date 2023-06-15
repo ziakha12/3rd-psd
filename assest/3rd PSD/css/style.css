@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header img{
+height: 120px;
+}
+.pre-banner{
+    background-color: darkgreen;
+    color: white;
+}
+.pre-banner h5{
+    word-spacing:5px ;
+    letter-spacing: 5px;
+}
+.pre-banner span{
+background-color: yellow;
+padding: 5px 8px;
+margin-left: 5px;
+}
+.banner{
+    background-image: url(assest/images/banner-bg.png);
+    height: 70vh;
+}

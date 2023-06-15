@@ -1,0 +1,516 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+  
+.toggler {
+    margin-right: 7rem;
+}
+  .sidenav{
+    background-color:white;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    transition:  all .5s ease;
+    opacity: 0.9;
+  }
+  
+  .sidenav a{
+    display: block;
+    padding: 10px 0;
+    color: #00040a;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .sidenav a:hover{
+    color: #333;
+    background-color: #fff;
+    font-weight: bold;
+    border-right: 2px solid #ffffff;
+    margin-left: 15px;
+  }
+  
+  .sidenav .fa{
+    display: inline-block;
+    color: white;
+  }
+  
+  .single-nav {
+      border-bottom: 1px solid #fff;
+  }
+  
+  #icon{
+    display: none;
+    
+  }
+  
+  label #openbtn, label #closebtn{
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  label #openbtn{
+    top: 34px;
+    left: inherit;
+    font-size: 47px;
+    /* background-color: #333; */
+    padding: 10px;
+  }
+  
+  label #closebtn{
+  z-index: 1111;
+  top: 20px;
+  right: inherit;
+  font-size: 30px;
+  color: #00040a;
+  }
+  
+  #icon:checked ~ .sidenav{
+    left:0;
+  }
+  
+  #icon:checked ~ label #closebtn {
+      left: 220px;
+      color:#00040a;
+  }
+  .header .toggler i {
+    color: #00040a;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    left: -38px;
+}
+  
+  #icon:checked ~ label #openbtn{
+    left:170px;
+    opacity: 0;
+  }
+  #icon:checked ~ label #closebtn {
+    left: 210px;
+    color: #00040a;
+    top: 60px;
+    font-size: 40px;
+    transition: .5s;
+}
+#icon:checked ~ label #closebtn:hover {
+    transform: rotate(180deg);
+}
+  
+  #icon:checked ~ .content{
+    margin-left: 250px;
+  }
+  .mainNav{
+    list-style-type: none;
+    padding: 0%;
+  }
+  
+.navbar button{
+outline: none;
+border: none;
+
+}
+.header .toggler i{
+    color: #00040a;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    left: -38px;
+}
+.header img{
+height: 120px;
+}
+.pre-banner{
+    background-color:#006d45;
+    color: white;
+}
+.pre-banner h5{
+    word-spacing:5px ;
+    letter-spacing: 5px;
+}
+.pre-banner h4{
+    display: inline-block;
+}
+.green-btn {
+background-color:red;
+text-decoration: none;
+padding: 8px 10px;
+margin-left: 5px;
+box-shadow:3px 5px 10px rgba(0,0,0,0.75);
+display: inline-block;
+color: white;
+transition: 0.3s;
+cursor: pointer;
+font-size: 19px;
+}
+.green-btn:hover{
+    background-color:#333;
+    margin-bottom: 2px;
+    color: white    ;
+}
+
+.banner{
+    background-image: url(/assest/images/banner-bg.png);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.banner-content {
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+padding: 20px 0px;}
+    .post-video{
+        background-color:#d2ccbf;
+        box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+    }
+    .video-content {
+        background-color: white;
+    }
+    .video-content p{
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .fifth{
+        background-image: url(/assest/images/mission-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center  center;
+        margin-top: 7px;
+        padding: 30px 0px;
+        height: 40vh;
+    }
+    .fifth-content{
+        color: white;
+        letter-spacing: 3px;
+        border: 2px solid white;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        padding: 5px 10px;
+        box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+    }
+    .sixth{
+        background-color:#d2ccbf;
+        box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+        -webkit-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+        -moz-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+    }
+    .sixth-text::first-letter{
+        initial-letter: 3;
+    }
+    .seven{
+        margin-top: 7px;
+    }
+    .seven{
+        background: url(/assest/images/360_F_84476152_QQvD1vhQScUtnWHq74Hn41BMOB4Qm8O3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        margin-top: 7px;
+        padding: 30px 0px;
+        height: 60vh;
+    }
+.seven-content{
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 5px 10px;
+    box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+}
+.seven-content h2{
+font-size: 3.2rem;
+font-weight: 600;
+}
+.seven-content h3{
+    font-size: 2.75rem;
+}
+
+.eight{
+    background-color:#d2ccbf;
+    box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 18px 46px -19px rgba(0,0,0,0.75) inset;
+}
+.eight-text{
+    background-color: whitesmoke;
+}
+.eight-text::first-letter{
+    initial-letter: 3;
+}
+.eight-text ul{
+    border-bottom: 1px solid black;
+}
+.james-main{
+    background-color: white;
+}
+.james-upper h5 span{
+    letter-spacing: 2px;
+    display: block;
+}
+.james-text::first-letter{
+    initial-letter: 3;
+}
+.lifeline{
+    background: url(/assest/images/lifeli.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top: 7px;
+    padding: 30px 0px;
+    height: 50vh;   
+}
+.lifeline-content{
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 5px 10px;
+    box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+}
+.lifeline-content h2{
+font-size: 2.5rem;
+font-weight: 600;
+}
+.lifeline-content h3{
+    font-size: 2rem;
+}
+.eleven {
+    background-color: whitesmoke;
+}
+.eleven-heading{
+    padding: 30px;
+}
+.eleven-heading h2{
+    letter-spacing: 3px;
+}
+.eleven-heading span {
+    position: relative;
+    font-size: 90px;
+    color: #ef6c1c9e;
+    top: -34px;
+}
+.eleven-text{
+    border-bottom: 1px solid black;
+}
+.twelve{
+    background-color: whitesmoke;
+}
+.twelve-text{
+    background-color: white;
+}
+.twelve-text .twelve-head span {
+    letter-spacing: 6px;
+}
+.twelve-text::first-letter{
+    initial-letter: 3;
+}
+.comapny {
+    background-color: whitesmoke;
+}
+.company-main{
+    background-color:#d5d5c6;
+}
+.company-text h5{
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.comp-logo{
+    border-top: 1px solid black;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.measure{
+    background-color: whitesmoke;
+}
+.symposium{
+    background-color: whitesmoke;
+}
+.symposium-main{
+    background-color:#d5d5c6;
+}
+.symposium-head{
+    padding-top: 22px;
+}
+.symposium-head h4 span{
+    letter-spacing: 4px;
+}
+.symposium-text p span{
+    font-weight: 700;
+}
+.research{
+    background-color:#d5d5c6;
+    padding-top: 20px;
+}
+.research-head h4 span{
+    letter-spacing: 8px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.r  p::first-letter{
+    initial-letter: 3;
+    font-weight: 600;
+}
+.rp span{
+    font-weight: bold;
+    font-style: italic;
+}
+.rp span a{
+    color: #00040a;
+}
+.research-chart{
+   background-color:#ebe6e0 ; 
+}
+.chart-text p span{
+    font-weight: bold;
+    font-size: 17px;
+}
+.testimonial-banner{
+    background: url(/assest/images/testi-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top: 7px;
+    padding: 30px 0px;
+    height: 50vh;   
+}
+.Testi-content{
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: fit-content;
+    padding: 5px 10px;
+    box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+}
+.Testi-content h2{
+font-size: 2rem;
+
+}
+.Testi-content h4{
+    font-size: 1.5rem;
+}
+.Testi-content h5{
+    font-size: 1.5rem;
+}
+.testimonial{
+    background-color: #d5d5c6;
+}
+.testi-head h4{
+    letter-spacing: 5px;
+}
+.testi-head p{
+    font-size: 22px;
+    font-weight: 700;
+}
+.testi-main{
+    background-color: white;
+    padding: 60px 30px;
+}
+.testi-video{
+padding-bottom: 30px;
+border-bottom: 1px solid;
+}
+.test-text{
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.test-text p{
+    font-size: 20px;
+}
+.testi-content{
+    padding: 20px;
+}
+.tests-text p{
+    font-size: 20px;
+}
+.phase-content{
+    color: white;
+    letter-spacing: 3px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: fit-content;
+    padding: 37px 10px;
+    box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 25px 29px 216px -121px rgba(0,0,0,0.75) inset;
+}
+.phase-content h2{
+    letter-spacing: 5px;
+    font-size: 2rem;
+    
+}
+.phase{
+    background: url(/assest/images/three-phase);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top: 7px;
+    padding: 30px 0px;
+    height: 55vh;   
+}
+.phase-heading{
+    padding: 30px;
+}
+.phase-heading h1{
+    font-size: 33px;
+}
+.phase-heading span {
+    position: relative;
+    font-size: 90px;
+    color: #ef6c1c9e;
+    top: -34px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.phase-main{
+    background-color: #d5d5c6;
+}
+.phase-text p span{
+    font-weight: bold;
+    font-size: 19px;
+}
+.phase1{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.footer{
+    background-color:#304265;
+    color: white;
+}
+.footer-text{
+    padding: 10px 0px ;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
